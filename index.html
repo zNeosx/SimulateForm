@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="form__box">
+      <form action="" id="form">
+        <h1>Registration</h1>
+        <div class="form__inputs">
+          <input
+            type="text"
+            name="username"
+            id="form__username"
+            class="data"
+            placeholder="Username..."
+          />
+          <br />
+          <span>Error</span>
+        </div>
+        <div class="form__inputs">
+          <input
+            type="text"
+            name="email"
+            id="form__email"
+            class="data"
+            placeholder="Email..."
+          />
+          <br />
+          <span>Error</span>
+        </div>
+        <div class="form__inputs">
+          <input
+            type="password"
+            name="password"
+            id="form__password"
+            class="data"
+            placeholder="Password..."
+          />
+          <br />
+          <span>Error</span>
+        </div>
+        <div class="form__inputs">
+          <input
+            type="password"
+            name="password_bis"
+            placeholder="Password confirmation..."
+            id="form__password2"
+            class="data"
+          />
+          <br />
+          <span>Error</span>
+        </div>
+
+        <br />
+        <input type="submit" value="Send" class="submit__btn" />
+      </form>
+      <br />
+      <span id="error__all"></span>
+    </div>
+
+    <script src="/assets/JS/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1b1b1c;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.form__box {
+  width: 30%;
+  background-color: #f1f1f1;
+  padding: 2rem 3rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#form {
+  padding: 2rem;
+}
+
+#form h1 {
+  margin-bottom: 2rem;
+}
+
+.form__inputs {
+  margin-bottom: 10px;
+}
+
+.form__inputs span {
+  visibility: hidden;
+}
+
+.form__inputs.error span {
+  visibility: visible;
+  color: red;
+}
+
+.form__inputs.error input {
+  border-bottom: 2px solid red;
+}
+
+.form__inputs.success input {
+  border-bottom: 2px solid green;
+}
+
+.data {
+  width: 100%;
+  margin-bottom: 5px;
+  background-color: blanchedalmond;
+  padding: 5px 5px;
+  border: none;
+  background: none;
+  outline: none;
+  border-bottom: 2px solid #1b1b1c;
+}
+
+.submit__btn {
+  width: 100%;
+  padding: 1rem 2rem;
+  border: none;
+  /* border-radius: 10px; */
+  background: #1b1b1c;
+  color: #f1f1f1;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.submit__btn:hover {
+  opacity: 1;
+  transition: 0.3s;
+}
